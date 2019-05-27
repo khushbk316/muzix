@@ -60,14 +60,13 @@ public class TrackServiceImplTest {
     }
 
 
-        @Test
-        public void testSaveTrackFailure(){
-            Track testTrack = new Track(1,"sweet sweet isabelle","sweet song");
-            trackRepository.save(testTrack);
-            // Track fetchtrack = trackRepository.findById(track.getTrackId()).get();
-            Assert.assertNotSame(track,testTrack);
-        }
-
+    @Test
+    public void saveTrackTestFailure() throws TrackAlreadyFoundExceptions {
+        when(trackRepository.save((Track) any())).thenReturn(null);
+        Track savedTrack = trackServiceimpl.saveTrack(track);
+        System.out.println("savedTrack" + savedTrack);
+        Assert.assertEquals(null,savedTrack);
+    }
 
         @Test
         public void getAlltrack() throws ResourceNotFoundException {
