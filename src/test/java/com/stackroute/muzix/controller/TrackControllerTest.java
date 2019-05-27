@@ -70,7 +70,7 @@ import static org.mockito.Mockito.when;
 
         }
     @Test
-    public void saveUserFailure() throws Exception {
+    public void saveTrackFailure() throws Exception {
         when(trackService.saveTrack(any())).thenThrow(TrackAlreadyFoundExceptions.class);
         mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/track")
                 .contentType(MediaType.APPLICATION_JSON).content(asJsonString(track)))
@@ -79,7 +79,7 @@ import static org.mockito.Mockito.when;
     }
 
         @Test
-        public void getAllUser() throws Exception {
+        public void getAllTrack() throws Exception {
             when(trackService.getAllTrack()).thenReturn(list);
             mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/tracklist")
                     .contentType(MediaType.APPLICATION_JSON).content(asJsonString(track)))

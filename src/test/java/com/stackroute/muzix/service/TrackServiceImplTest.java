@@ -48,7 +48,7 @@ public class TrackServiceImplTest {
 
         }
     @Test
-    public void saveUserTestSuccess() throws TrackAlreadyFoundExceptions{
+    public void saveTrackTestSuccess() throws TrackAlreadyFoundExceptions{
 
         when(trackRepository.save((Track) any())).thenReturn(track);
         Track savedTrack = trackRepository.save(track);

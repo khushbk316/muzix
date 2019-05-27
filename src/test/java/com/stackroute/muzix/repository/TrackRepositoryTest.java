@@ -45,7 +45,7 @@ public class TrackRepositoryTest
 
 
         @Test
-        public void testSaveUser(){
+        public void testSaveTrack(){
            trackRepository.save(track);
             Track fetchtrack = trackRepository.findById(track.getTrackId()).get();
             Assert.assertEquals(1,fetchtrack.getTrackId());
@@ -53,7 +53,7 @@ public class TrackRepositoryTest
         }
 
         @Test
-        public void testSaveUserFailure(){
+        public void testSaveTrackFailure(){
            Track testTrack = new Track(2,"duniya","rocking");
             trackRepository.save(track);
             Track fetchTrack = trackRepository.findById(track.getTrackId()).get();
@@ -61,7 +61,7 @@ public class TrackRepositoryTest
         }
 
         @Test
-        public void testGetAllUser(){
+        public void testGetAllTrack(){
             Track t = new Track(2,"humnava","fantastic");
             Track t1 = new Track(3,"kaabil","fabulous");
            trackRepository.save(t);
