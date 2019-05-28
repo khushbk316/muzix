@@ -2,20 +2,19 @@ package com.stackroute.muzix.domain;
 
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.CommandLineRunner;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+
 import java.util.Arrays;
 
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Builder
+@Document
 public class Track {
     @Id
     private  int TrackId;

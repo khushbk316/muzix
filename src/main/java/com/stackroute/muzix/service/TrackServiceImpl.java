@@ -51,22 +51,22 @@ public  class TrackServiceImpl implements TrackService {
         return trackRepository.findById(id);
     }
 
-    @Override
-    public void updateCommentById(Track track, int id) {
-
-        saveTrack = trackRepository.getOne(id);
-
-        track.setTrackId(saveTrack.getTrackId());
-        track.setTrackName(saveTrack.getTrackName());
-        trackRepository.save(track);
-
-
-    }
-
-    @Override
-    public List<Track> getTrackByName(String str) {
-        return trackRepository.fnName(str);
-    }
+//    @Override
+//    public void updateCommentById(Track track, int id) {
+//
+//        saveTrack = trackRepository.getOne(id);
+//
+//        track.setTrackId(saveTrack.getTrackId());
+//        track.setTrackName(saveTrack.getTrackName());
+//        trackRepository.save(track);
+//
+//
+//    }
+//
+//    @Override
+//    public List<Track> getTrackByName(String str) {
+//        return trackRepository.fnName(str);
+//    }
 
     @Override
     public void deleteTrack(Track track, int id)  {

@@ -2,36 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701d197a-f4ad-4f79-8080-bca7e61e5c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/muzix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyCommandLineRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyCommandLineRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/MuzixApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/MuzixApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/MuzixApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/controller/TrackController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/controller/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/controller/TrackController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/domain/Track$TrackBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/domain/Track.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/exceptions/ExceptionHandlerControllerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/exceptions/ExceptionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/exceptions/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/exceptions/TrackAlreadyFoundExceptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/repository/TrackRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/seeddata/MyCommandLineRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/repository/TrackRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/repository/TrackRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/domain/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/domain/Track.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/repository/TrackRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/repository/TrackRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/muzix/service/TrackServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/MuzixApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/controller/TrackControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/repository/TrackRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/muzix/service/TrackServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,10 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+            <state relative-caret-position="327">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,12 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="912">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2082#2083#0" expanded="true" />
-                <element signature="e#2132#2133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+            <state relative-caret-position="-346">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -84,8 +75,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="33" column="6" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1416">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,51 +103,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="927">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="102" lean-forward="true" selection-start-line="93" selection-end-line="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/MuzixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -152,10 +116,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyCommandLineRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="22" selection-end-line="32" />
+            <state relative-caret-position="323">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-364">
+              <caret line="63" column="43" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -183,21 +168,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/exceptions/ResourceNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/CommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/MyCommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyapplicationListner.java" />
         <option value="$PROJECT_DIR$/mvnw" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyCommandLineRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/muzix/MuzixApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -278,7 +264,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muzix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muzix" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muzix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="muzix" type="b2602c69:ProjectViewProjectNode" />
@@ -406,7 +410,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrackRepositoryTest">
+  <component name="RunManager" selected="Application.MuzixApplication">
+    <configuration name="MuzixApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.muzix.MuzixApplication" />
+      <module name="muzix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.muzix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrackControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muzix" />
       <extension name="coverage">
@@ -453,22 +470,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrackRepositoryTest.testSaveTrack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="muzix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.muzix.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.muzix.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.muzix.repository.TrackRepositoryTest" />
-      <option name="METHOD_NAME" value="testSaveTrack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrackServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muzix" />
       <extension name="coverage">
@@ -486,11 +487,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MuzixApplication" />
         <item itemvalue="JUnit.TrackRepositoryTest" />
         <item itemvalue="JUnit.TrackControllerTest" />
         <item itemvalue="JUnit.TrackServiceImplTest" />
         <item itemvalue="JUnit.TrackRepositoryTest.testGetAllTrack" />
-        <item itemvalue="JUnit.TrackRepositoryTest.testSaveTrack" />
       </list>
     </recent_temporary>
   </component>
@@ -508,15 +509,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrackRepositoryTest_testGetAllTrack - 2019.05.27 at 17h 47m 28s.xml">
-      <configuration name="TrackRepositoryTest.testGetAllTrack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrackRepositoryTest_testGetAllTrack - 2019.05.27 at 17h 50m 30s.xml">
-      <configuration name="TrackRepositoryTest.testGetAllTrack" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrackRepositoryTest_testGetAllTrack - 2019.05.27 at 17h 53m 52s.xml">
-      <configuration name="TrackRepositoryTest.testGetAllTrack" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrackRepositoryTest - 2019.05.27 at 17h 54m 10s.xml">
       <configuration name="TrackRepositoryTest" configurationId="JUnit" />
     </history-entry>
@@ -536,6 +528,15 @@
       <configuration name="TrackControllerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrackRepositoryTest - 2019.05.28 at 09h 57m 28s.xml">
+      <configuration name="TrackRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrackRepositoryTest - 2019.05.28 at 10h 04m 36s.xml">
+      <configuration name="TrackRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrackRepositoryTest - 2019.05.28 at 10h 12m 23s.xml">
+      <configuration name="TrackRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrackRepositoryTest - 2019.05.28 at 10h 13m 56s.xml">
       <configuration name="TrackRepositoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -655,57 +656,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/seeddata/MyapplicationListner.java" />
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.stackroute.muzix.MuzixApplicationTests.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/mvnw" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/MuzixApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/ArgumentMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/MuzixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,37 +672,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/MuzixApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="102" lean-forward="true" selection-start-line="93" selection-end-line="102" />
+        <state relative-caret-position="327">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -755,32 +698,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/service/TrackServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="912">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/repository/TrackRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/controller/TrackController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="71" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        <state relative-caret-position="-1416">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/domain/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/controller/TrackControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="63" column="43" selection-end-line="103" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/repository/TrackRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="79">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/muzix/service/TrackServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="6" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/muzix/MuzixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
           </folding>
         </state>
       </provider>

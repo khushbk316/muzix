@@ -92,25 +92,25 @@ public class TrackController {
         }
     }
 
-    //UPDATION OF DATA........
-    @PatchMapping("/track/{id}")
-    public ResponseEntity<?> getCommentUpdated(@RequestBody Track track, @PathVariable int id) {
-        trackService.updateCommentById(track, id);
+//    //UPDATION OF DATA........
+//    @PatchMapping("/track/{id}")
+//    public ResponseEntity<?> getCommentUpdated(@RequestBody Track track, @PathVariable int id) {
+//        trackService.updateCommentById(track, id);
+//
+//
+//        return new ResponseEntity<Track>(track, HttpStatus.CREATED);
+//    }
 
 
-        return new ResponseEntity<Track>(track, HttpStatus.CREATED);
+//    @GetMapping("/track/{name}")
+//    public ResponseEntity<?> getTrackByname(@PathVariable String trackName) {
+//        try {
+//            return new ResponseEntity<List<Track>>(trackService.getTrackByName(trackName), HttpStatus.OK);
+//        } catch (Exception e) {
+//            return new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
+//        }
     }
 
-
-    @GetMapping("/track/{name}")
-    public ResponseEntity<?> getTrackByname(@PathVariable String trackName) {
-        try {
-            return new ResponseEntity<List<Track>>(trackService.getTrackByName(trackName), HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
-        }
-    }
-}
 
 
 
